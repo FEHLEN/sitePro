@@ -1,0 +1,198 @@
+
+#bar-tete{
+    background-color: rgb(100, 47, 100);
+}
+#mail{
+    margin-left: 100px;
+    color:rgb(100, 47, 100);
+}
+
+a.nav-link{
+    color:white;margin-left: 10px;
+    /*color:rgb(100, 47, 100);*/
+}
+#accueil{
+    color:black;
+}
+button img{
+    margin-left: 10px;
+}
+span{
+    border-bottom: 2px solid rgb(100, 47, 100);
+}
+span{
+    text-decoration: none;
+    background:linear-gradient(to top, rgba(60, 18, 24, 1) 0%, rgba(60, 18, 24, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .120s;
+}
+span:hover{
+    background-size: 100% 100%;
+}
+#hero{
+    width: 80%;margin:auto;
+}
+#hero img{
+    background-size: cover;width: 100%;
+}
+h1, h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#card p{
+    background-color:rgb(100, 47, 100);
+    color:white;
+    font-family: cursive;
+    width: 90%;margin:auto;
+    text-align: center;
+}
+#box{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+    font-weight: bold;
+}
+.motion-object {
+    offset-path: path('M10 50 H 650 V 150 H 10 Z'); /* this is a square path */
+    animation: move 3s linear infinite;
+}
+
+@keyframes move {
+    0% { 
+    offset-distance: 0%;
+    }
+    100% { 
+    offset-distance: 100%;
+    }
+}
+
+/* deco */
+
+body {
+    background: #333;
+    padding: 2rem;
+}
+
+.motion-object {
+width: 40px;
+height: 40px;
+background: rgb(100, 47, 100);
+border-radius: 50%;
+}
+
+.card-body{
+    border: 5px solid rgb(100, 47, 100);
+    margin-top: 30px;
+}
+#haut{
+    border: 5px solid rgb(100, 47, 100);
+}
+#liens{
+    margin-top: 20px; padding-top: 10px;
+}
+#liens a{
+    color:rgb(100, 47, 100);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#footer{
+    margin-bottom: 150px;
+    background-color: rgb(100, 47, 100);
+    color:white;
+}
+#footer span{
+    border-bottom: 2px solid white;
+}
+
+@media all and (max-device-width:480px)
+{
+    #bar-tete{
+        background-color: rgb(100, 47, 100);
+    }
+    #mail{
+        margin:0px;
+    }
+    a.navbar-brand{
+        margin:0px;
+    }
+    #reseaux img{
+        width: 70%;
+    }
+    a.nav-link{
+        color:white;
+        /*color:rgb(100, 47, 100);*/
+    }
+    button img{
+        margin-left: 10px;
+    }
+    span{
+        border-bottom: 2px solid rgb(100, 47, 100);
+    }
+    #hero img{
+        background-size: cover;width: 100%;
+    }
+    #card p{
+        background-color:rgb(100, 47, 100);
+        color:white;
+        font-family: cursive;
+        width: 90%;margin:auto;
+    }
+    #box{
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .motion-object {
+        offset-path: path('M10 50 H 300 V 150 H 10 Z'); /* this is a square path */
+        animation: move 3s linear infinite;
+    }
+  
+    @keyframes move {
+        0% { 
+        offset-distance: 0%;
+        }
+        100% { 
+        offset-distance: 100%;
+        }
+    }
+  
+    /* deco */
+    
+    body {
+        background: #333;
+        padding: 2rem;
+    }
+  
+  .motion-object {
+    width: 40px;
+    height: 40px;
+    background: rgb(100, 47, 100);
+    border-radius: 50%;
+  }
+
+    .card-body{
+        border: 5px solid rgb(100, 47, 100);
+        margin-top: 30px;
+    }
+    #haut{
+        margin-top: 80px;
+        border: 5px solid rgb(100, 47, 100);
+    }
+    #liens{
+        margin-top: 20px; padding-top: 10px;
+    }
+    #liens a{
+        color:rgb(100, 47, 100);
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    #footer{
+        
+        margin-bottom: 150px;
+        background-color: rgb(100, 47, 100);
+        color:white;
+    }
+    #footer span{
+        border-bottom: 2px solid white;
+    }
+}

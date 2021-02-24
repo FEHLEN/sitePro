@@ -1,0 +1,58 @@
+#bar-tete{
+    background-color: rgb(100, 47, 100);
+}
+#mail{
+    margin-left: 100px;
+    color:rgb(100, 47, 100);
+}
+
+a.nav-link{
+    color:white;margin-left: 10px;
+    /*color:rgb(100, 47, 100);*/
+}
+
+button img{
+    margin-left: 10px;
+}
+span{
+    border-bottom: 2px solid rgb(100, 47, 100);
+}
+h1{
+    text-align: center;
+}
+#footer{   
+    margin-bottom: 150px;
+    background-color: rgb(100, 47, 100);
+    color:white;
+}
+#footer span{
+    border-bottom: 2px solid white;
+}
+
+
+
+@media all and (max-device-width:480px)
+{
+    #bar-tete{
+        background-color: rgb(100, 47, 100);
+    }
+    #mail{
+        margin:0px;
+    }
+    a.navbar-brand{
+        margin:0px;
+    }
+    #reseaux img{
+        width: 70%;
+    }
+    a.nav-link{
+        color:white;
+        /*color:rgb(100, 47, 100);*/
+    }
+    button img{
+        margin-left: 10px;
+    }
+    span{
+        border-bottom: 2px solid rgb(100, 47, 100);
+    }
+}
