@@ -1,0 +1,102 @@
+@font-face{font-family: 'Alex Brush';src:url('fonts/AlexBrush-Regular.ttf');}
+@font-face{font-family: 'Jomhuria';src:url('fonts/Jomhuria-Regular.ttf');}
+@font-face{font-family: 'Croissant One';src:url('fonts/croissantone-regular.ttf');}
+@font-face{font-family: 'Kaushan Script';src:url('fonts/KaushanScript-Regular.otf');}
+@font-face{font-family: 'Bradley Hand ITC';src:url('fonts/bradhitc.ttf');}
+
+#bar-tete{
+    background-color: rgb(47, 83, 100);
+    margin-right: 0px;margin-left: 0px;
+}
+#logo img{
+    margin-left: 5px;
+}
+a.nav-link{
+    color:white;margin-left: 10px;
+    /*color:rgb(100, 47, 100);*/
+}
+#contact, #accueil, #produits, #promotions{
+    padding-top: 30px;
+}
+#accueil{
+    color:black;
+}
+h1{
+    text-align: center;
+}
+#presentation h2{
+    text-align: center;
+    color:rgb(47, 83, 100);
+}
+h3{
+    background-color:rgb(47, 83, 100);
+    color:white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.cadre_menu1{
+    background-color: rgb(252, 223, 219);box-shadow: 2px 2px 12px rgb(209, 205, 205);border-radius: 1%;
+    margin-right: 2%;margin-bottom: 3%; 
+}
+.bouton_menu1 h2{
+    text-align: center;color:rgb(41, 14, 18);font-family: 'Brush Script MT'; font-size: 1.9em;
+}
+.bouton_menu1 i{
+    margin-left:45%;color:rgb(240, 82, 97);padding-top:0;text-align: center;color:rgba(153, 38, 179); font-size:3rem;background: linear-gradient( to right, rgba(240, 82, 97, 1),rgb(246, 145, 106));
+    background-clip: text;-webkit-background-clip: text;
+    color: transparent;
+}
+.bouton_menu1 p{
+    width: 100%;;text-align: center;color:rgb(41, 14, 18);font-family: 'Jomhuria';font-size: 2.2rem;font-weight: bold;margin-bottom: 0;
+}
+.cadre_menu2{
+    background-color:rgb(255, 245, 254);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;
+}
+.bouton_menu2{
+    background-color:rgba(255, 245, 254,0);transition-property: transform;transition:1s;
+}
+.bouton_menu2 h2{
+    padding-top:30px;text-align: center;font-family: 'Croissant One';font-size: 1.4em;color:rgb(211, 140, 48);background: linear-gradient( to right,rgb(199, 116, 18),rgb(157, 98, 219));
+    background-clip: text;-webkit-background-clip: text;
+    color: transparent;
+}
+.bouton_menu2 p{
+    width: 100%;text-align: center;color:rgb(216,133,46);padding-bottom: 10px;font-family: 'Bell MT';font-weight: bold;font-size: 2rem;
+}
+.cadre_menu3{
+    background-color:rgb(249,249,249);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;
+}
+.bouton_menu3{
+    background-color:rgba(249,249,249,0);transition-property: transform;transition:1s;
+}
+.bouton_menu3 h2{
+    text-align: center;color:rgb(4,49,223);font-size: 1.8rem;font-family: 'Alex Brush';background: linear-gradient( to right,rgb(4,49,223),rgb(108,178,249));
+    background-clip: text;-webkit-background-clip:text;color: transparent; 
+}
+.bouton_menu3 p{
+    width: 100%;text-align: center;color:rgb(4,49,223);font-family: 'Bradley Hand ITC';font-size: 2rem;font-weight: bold;
+}
+.cadre_menu4{
+    background-color:rgb(253,253,253);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;
+}
+.bouton_menu4{
+    background-color:rgba(253, 253, 253,0);transition-property:transform;transition:1s;
+}
+.bouton_menu4 h2{
+    padding-top:20px;text-align: center;font-family: 'Kaushan Script', sans-serif;font-size: 1.5rem;color:rgb(66,151,60);background: linear-gradient( to right, rgb(66,151,60),rgb(174,225,147));
+    background-clip: text;-webkit-background-clip:text;color: transparent;
+}
+.bouton_menu4 p{
+    width: 100%;text-align: center;padding-bottom:20px;color:rgb(66,151,60);font-size: 2rem;font-family: 'Bradley Hand ITC';font-weight: bold;
+}
+#cartes{
+    margin-top: 50px; margin-bottom: 50px;
+}
+#footer{
+    margin-bottom: 150px;
+    background-color:rgb(47, 83, 100) ;
+    color:white;
+}
+#liste a{
+    color:white;
+}

@@ -1,0 +1,86 @@
+@font-face{font-family: 'Kaushan Script';src:url('../fonts/KaushanScript-Regular.otf');}
+@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');}
+
+#bar-tete{
+    background-color: rgb(47, 83, 100);
+    margin-right: 0px;margin-left: 0px;
+}
+#logo img{
+    margin-left: 5px;
+}
+a.nav-link{
+    color:white;margin-left: 10px;
+    /*color:rgb(100, 47, 100);*/
+}
+#contact, #accueil, #produits, #promotions{
+    padding-top: 30px;
+}
+.menu{
+    width: 80%; height:auto;margin:auto;margin-top:2%;padding-bottom: 100px;background-color: rgb(252, 223, 219);margin-bottom: 120px;
+}
+.presentation{
+    text-align: center;padding-top:5%;padding-bottom: 5%;height: auto;
+}
+.presentation h1{
+    color:rgb(41, 14, 18);font-size: 4rem;font-family: 'Brush Script MT';
+}
+.presentation i{
+    color:rgb(240, 82, 97); font-size: 5rem;background: linear-gradient( to right,rgb(240, 82, 97),rgb(246, 145, 106));background-clip: text;-webkit-background-clip: text;color: transparent;
+}
+.titre{
+    display:flex;flex-direction: row;width: 100%;
+}
+h2{
+    margin:0px;padding:0px;width: 40%;font-family:'Kaushan Script';text-align: center;font-size: 2.2rem;
+}
+h2{
+    text-decoration: none;
+    background:linear-gradient(to top, rgba(60, 18, 24, 1) 0%, rgba(60, 18, 24, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+h2:hover {
+    background-size: 100% 100%;
+}
+.motif1{
+    margin-bottom:1.5%;width: 30%;border-bottom:10px solid rgba(60, 18, 24, 1);
+}
+.motif2{
+    margin-bottom:1.5%;width: 30%;border-bottom:10px solid rgba(60, 18, 24, 1);
+}
+.ligne{
+    display: flex;flex-direction: row;
+}
+.texte{
+    width:100%;
+}
+.texte p{
+    font-size: 1.5rem;text-align: center;font-family: 'Kaushan Script';margin-top: 20px;margin-bottom: 20px;
+}
+
+.final{
+    display: flex;flex-direction: row;width: 60%;margin:auto;padding-top:5%;
+}
+.final i{
+    font-size: 5rem;color:rgb(240, 82, 97);background: linear-gradient( to right,rgb(240, 82, 97),rgb(246, 145, 106));background-clip: text;-webkit-background-clip: text;color: transparent;
+}
+.final p{
+    width: 30%;margin:auto;
+}
+.validation{
+    width: 22%;margin:auto;padding-top: 50px;
+}
+.validation a{
+   font-size: 3rem;font-family: 'Brush Script MT';color:rgb(47, 83, 100);border:1px solid rgb(47, 83, 100);
+}
+.Information p{
+    text-align: center;
+}
+
+#footer{
+    margin-bottom: 150px;
+    background-color:rgb(47, 83, 100) ;
+    color:white;
+}
+#liste a{
+    color:white;
+}

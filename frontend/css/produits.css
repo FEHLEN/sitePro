@@ -1,5 +1,9 @@
 #bar-tete{
     background-color: rgb(100, 47, 100);
+    margin-right: 0px;margin-left: 0px;
+}
+#logo img{
+    margin-left: 5px;
 }
 #mail{
     margin-left: 100px;
@@ -54,3 +58,20 @@ h4 a{
     border-bottom: 2px solid white;
 }
 
+@media all and (max-device-width:480px)
+{
+    #mail{
+        margin:0px;
+    }
+    #haut{
+        margin:0px;
+        margin-bottom: 20px;
+    }
+    #medium{
+        margin-bottom: 20px;
+    }
+    #bas{
+        
+        margin-bottom: 20px;
+    }
+}

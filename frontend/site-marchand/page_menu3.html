@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="restaurant.css"/>
+        <link rel="stylesheet" href="page_menu3.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -31,7 +31,7 @@
             <div class="row" id="bar-tete">
                 <!--responsive petit moyen et large-->
                 <nav class="col nav navbar-expand-lg" id="logo">
-                    <a class="navbar-brand" href="../page-produits.html"><img src="../images/ToqueChef.png" width="100px" height="100px"/></a>
+                    <a class="navbar-brand" href="../site-marchand/restaurant.html"><img src="../images/ToqueChef.png" width="100px" height="100px"/></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                     <img src="../images/iconeMenu.JPG" width="40px" height="40px"/>
                     </button>
@@ -39,78 +39,64 @@
                     <div id="navbarContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item-active">
-                        <a class="nav-link" id="accueil" href="../page-produits.html">Accueil</a>
+                        <a class="nav-link" id="accueil" href="../site-marchand/restaurant.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" id="produits" href="./restaurant.html">Nos produits</a>
+                        <a class="nav-link" id="produits" href="../site-marchand/restaurant.html">Nos produits</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact" href="./formulaire.html">Connexion</a>
+                            <a class="nav-link" id="contact" href="../site-marchand/restaurant.html">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="panier" href="./panier.html"><img src="../images/panierBleu.png" width="80px" height="80px"/></a>
-                        </li>
+                        
                     </ul>
                     </div>
                 </nav>
             </div>
-            <div class="row">
-                <div class="col" id="presentation">
-                    <div class="jumbotron">
-                    <h1>Bienvenue dans notre restaurant "What else".</span> </h1>
-                    <h2>Nos plats sont le résultat de notre savoir faire et de notre passion pour le goût et la qualité.</h2>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                  <div class="col">
-                    <div class="jumbotron">
-                        <h3>Vous choisissez vos menus - vous cliquez - vous payez - vous collectez !</h3>
-                    </div>
-                  </div>
-                </div>
-            </div>
         </div>
-        <div class="container">
-            <div class="row" id="cartes">
-                <div class="col-12  col-lg-3">
-                    <div class="cadre_menu1">
-                        <div class="bouton_menu1">
-                            <i class="fa fa-music" ></i> <!--note de musique-->
-                            <a href="./page_menu1.html"><h2>La note enchantée</h2></a>
-                            <p>MENU</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12  col-lg-3">
-                    <div class="cadre_menu2">
-                        <div class="bouton_menu2">
-                            <br>
-                            <a href="./page_menu2.html"><h2>Le chic à la française</h2></a>
-                            <p>Menu</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12  col-lg-3">
-                    <div class="cadre_menu3">
-                        <br>
-                        <div class="bouton_menu3">
-                            <a href="./page_menu3.html"><h2>Le délice des papilles</h2></a>
-                            <p>Menu</p>
-                        </div>
-                    </div>
-                </div>
-              
-              <div class="col-12 col-lg-3">
-                <div class="cadre_menu4">
-                    <br>
-                    <div class="bouton_menu4">
-                        <a href="./page_menu4.html"><h2>La palette du goût</h2></a>
-                        <p>Menu</p>
-                    </div>
-                </div>
-              </div>
+        <div class="menu">
+            <div class="presentation">
+                <h1>Le délice des papilles</h1>
             </div>
+            <section>
+                <div class="entree">
+                    <div class="titre">
+                        <div class="motif1"></div><h2>Pour bien commencer</h2><div class="motif2"></div>
+                    </div>
+                    <div class="ligne">
+                        <div class="texte">
+                            <p>Bouchée de homard croustillant et sa farandole de petits légumes</p>
+                        </div> 
+                    </div>
+                </div>
+                   <!--possibilité de rajouter une ligne ici en copiant collant le bloc ligne-->
+                <div class="plat">
+                    <div class="titre">
+                        <div class="motif3"></div><h2>Pour bien continuer</h2><div class="motif4"></div>
+                    </div>
+                    <div class="ligne">
+                        <div class="texte">
+                            <p>Poulet rôti aux herbes de provence et sa crème de truffe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dessert">
+                    <div class="titre">
+                        <div class="motif5"></div><h2>Pour bien terminer</h2><div class="motif6"></div>
+                    </div>
+                    <div class="ligne">
+                        <div class="texte">
+                            <p>Tiramisu à la noisette</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tarif">
+                    <p>Prix : 35 euros</p>
+                </div>
+            </section> 
+        </div>
+        <div class="validation">
+            <a class="panier" href="panier3.html">Commander</a>
         </div>
         <div class="container" id="footer">
             <div class="row">
@@ -123,5 +109,6 @@
               </div>
             </div>
         </div>
+        
     </body>
 </html>

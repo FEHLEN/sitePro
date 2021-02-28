@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Alex Brush';src:url('../fonts/AlexBrush-Regular.ttf');
+    font-family: Kaushan Script;src:url('../fonts/KaushanScript-Regular.otf');
+}
+@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
+}
+
+#bar-tete{
+    background-color: rgb(47, 83, 100);
+    margin-right: 0px;margin-left: 0px;
+}
+#logo img{
+    margin-left: 5px;
+}
+a.nav-link{
+    color:white;margin-left: 10px;
+    /*color:rgb(100, 47, 100);*/
+}
+#contact, #accueil, #produits, #promotions{
+    padding-top: 30px;
+}
+.menu{
+    width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(253, 253, 253);border:2px solid rgb(230, 229, 229) ;padding-bottom: 200px;margin-bottom: 120px;
+}
+.presentation{
+    text-align: center;height: 20%;font-size: 3rem;font-family: 'Kaushan Script';
+}
+.presentation h1{
+    margin:auto; padding-top: 50px;padding-bottom: 50px;background: linear-gradient( to right,rgb(66, 151, 60),rgb(174, 225, 147),rgb(191, 255, 126));background-clip: text;-webkit-background-clip: text;color:transparent;
+}
+section{
+    margin:0;display: flex;flex-direction: column;width: 100%;
+}
+.titre{
+    display:flex;flex-direction: row;width: 100%;padding-bottom: 40px;padding-top: 40px;
+}
+.titre img{
+    width: 90%;
+}
+h4 img{
+    margin-left: 10%;
+}
+.entree h2, .plat h2, .dessert h2{
+    margin:0;padding-left:10px;padding-top:6px;width: 40%;font-family:'Bradley Hand ITC';text-align: center;font-size: 2rem;
+}
+.entree h2, .plat h2, .dessert h2{
+    text-decoration: none;background:linear-gradient(to top, rgba(191, 255, 126, 1) 0%, rgba(191, 255, 126, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
+} 
+.entree h2:hover, .plat h2:hover, .dessert h2:hover {
+    background-size: 100% 100%;
+}
+section h3, section h4{
+    width:  30% ; height: 8px;
+}   
+.ligne{
+    display: flex;flex-direction: row;
+}
+.texte{
+    width:80%;margin:auto;
+}
+.texte p{
+    font-size: 1.5rem;text-align: left;font-family: 'Bradley Hand ITC';
+}
+.tarif{
+    width: 20%;margin:auto;text-align: center;font-family: 'Bradley Hand ITC';font-size: 1.5rem;
+}
+.validation{
+    width: 10%;margin:auto;padding-bottom: 50px;
+}
+#footer{
+    margin-bottom: 150px;
+    background-color:rgb(47, 83, 100) ;
+    color:white;
+}
+#liste a{
+    color:white;
+}
