@@ -1,20 +1,16 @@
 <!doctype html>
 <html lang="fr">
   <head>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="./css/produits.css"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./css/produits.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
-
-    <!-- Bootstrap CSS -->
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-	<title>Vous êtes sur la pages des produits créés, site vitrine, site dynamique ou site marchand. Cette page vous propose des modèles de site avec des métiers différents, développés par l'entreprise WEBNELLDEV.</title>
+    <title>Vous êtes sur la pages des produits créés, site vitrine, site dynamique ou site marchand. Cette page vous propose des modèles de site avec des métiers différents, développés par l'entreprise WEBNELLDEV.</title>
     <meta property="og:title" content="webnelldev" />
-	<meta property="og:type" content="siteweb" />
-	<meta property="og:image" content="https://webnelldev.fr/">
+    <meta property="og:type" content="siteweb" />
+    <meta property="og:image" content="https://webnelldev.fr/">
     <meta property="og:url" content="https://webnelldev.fr/" />
     <link rel="canonical" href="https://webnelldev.fr/index.html"/>
     <meta name="author" content="LAB Nelly"/>
@@ -31,7 +27,7 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <div class="container">
-      <div class="row" id="réseaux">
+      <div class="row">
         <div class="col">
             <a class="navbar-brand" href=""><img src="./images/iconeFacebookviolet.png" width="48px" height="48px" alt="icone facebook"/></a>
             <a class="navbar-brand" href=""><img src="./images/iconeLinkedInViolet.png" width="40px" height="40px" alt="icone linkedIn"/></a>
@@ -39,11 +35,9 @@
             <img id="mail" src="./images/icons8-message-100.png" width="30px" height="30px" alt="icone twitter"/>nelly.lab@orange.fr
         </div>
       </div>
-    </div>
-    <div class="container">
       <div class="row" id="bar-tete">
           <!--responsive petit moyen et large-->
-            <nav class="col nav navbar-expand-lg">
+            <nav class="col nav navbar-expand-lg" id="logo">
               <a class="navbar-brand" href="../index.html"><img src="./images/iconeLogo.JPG" /></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                 <img src="./images/iconeMenu.JPG" width="40px" height="40px"/>
@@ -55,7 +49,10 @@
                     <a class="nav-link" id="accueil" href="../index.html">Accueil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="produit" href="./page-produits.html">Produits</a>
+                    <a class="nav-link" id="produit" href="./page-produits.html">Nos produits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="services" href="./page-services.html">Nos services</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="contact" href="./contact.html">Contact</a>
@@ -64,9 +61,7 @@
               </div>
             </nav>
       </div>
-    </div>
-    <div class="container" id="presentation">
-        <div class="row">
+      <div class="row" id="presentation">
           <div class="col">
             <div class="jumbotron">
               <h1><span>WEBNELLDEV</span> vous propose des exemples de sites.</h1> 
@@ -78,7 +73,7 @@
             </div>
               
           </div>
-        </div>
+      </div>
     </div>
     <div class="container">
       <div class="row">
@@ -87,14 +82,13 @@
             <h3 class="card-title">Site vitrine</h3>
             <h4 class="card-text"><a  href="./site-vitrine/fleuriste.html">Fleuriste</a></h4>
             <h4 class="card-text"><a  href="./site-vitrine/boulanger.html">Boulangerie</a></h4>
-            <h4 class="card-text"><a  href="./site-vitrine/loisirs.html ">Loisirs</a></h4>
           </div>
         </div>
         <div class="col-12  col-lg-4">
           <div class="card-body" id="medium">
             <h3 class="card-title">Site dynamique</h3>
-            <h4 class="card-text"><a  href="./site-dynamique/objets.html">Vente d'objets</a></h4>
-            <h4 class="card-text"><a  href="./site-dynamique/services.html">Commande de services</a></h4>
+            <h4 class="card-text"><a  href="./site-dynamique/objets.html">Commande d'objets</a></h4>
+            <h4 class="card-text"><a  href="./site-dynamique/services.html">Adhésion associative</a></h4>
           </div>
         </div>
         <div class="col-12 col-lg-4">
@@ -111,7 +105,7 @@
           <ul class="list-inline text-center" id="liste">
             <li class="list-inline-item"><a href="">© 2021 | WEBNELLDEV</a></li>
             <li class="list-inline-item">&middot;</li>
-            <li class="list-inline-item"><a href="./frontend/mentions.html">Mentions légales</a></li>
+            <li class="list-inline-item"><a href="../frontend/mentions.html">Mentions légales</a></li>
           </ul>
         </div>
       </div>

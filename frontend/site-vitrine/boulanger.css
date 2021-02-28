@@ -1,6 +1,9 @@
 #bar-tete{
-    background-color: rgb(47, 100, 65);
+    background-color: rgb(100, 51, 47);
     margin-right: 0px;margin-left: 0px;
+}
+#logo img{
+    margin-left: 5px;
 }
 a.nav-link{
     color:white;margin-left: 10px;
@@ -12,32 +15,33 @@ a.nav-link{
 #accueil{
     color:black;
 }
-.video{
-    width: 20%;margin:auto;
+h1{
+    text-align: center;
 }
-
+h2{
+    background-color: rgb(100, 51, 47);
+    color:white;
+    text-align: center;
+    padding-bottom: 5px;
+}
 #hero{
     width: 100%;
 }
 #hero img{
-    background-size: cover;width: 100%; height: 200px;
+    background-size: cover;width: 100%; height: 400px;
 }
 #card{
-    background-color:rgb(47, 100, 65) ;
+    background-color: rgb(100, 51, 47);
     color:white;
     font-size: 2rem;
     text-align: center;
 }
-h1, h2{
+h4{
     text-align: center;
-}
-h4, h5{
-    text-align: center;
-    font-size: 0.8rem;
 }
 #footer{
     margin-bottom: 150px;
-    background-color: rgb(47, 100, 65);
+    background-color: rgb(100, 51, 47) ;
     color:white;
 }
 #liste a{
