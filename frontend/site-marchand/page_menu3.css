@@ -93,6 +93,9 @@ section{
 .validation{
     width: 10%;margin:auto;padding-bottom: 50px;
 }
+.Information p{
+    text-align: center;
+}
 .tarif{
     width: 20%;margin:auto;font-size:1.5rem;font-weight: bold;padding-top: 20px;font-family: 'Bradley Hand ITC';
 }

@@ -107,6 +107,9 @@ section{
 .validation{
     width: 15%;margin:auto;padding-top: 50px;
 }
+.Information p{
+    text-align: center;
+}
 #footer{
     margin-bottom: 150px;
     background-color:rgb(47, 83, 100) ;
