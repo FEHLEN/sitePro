@@ -28,6 +28,15 @@ h1, h2{
     color:rgb(100, 47, 100);
     text-align: center;
 }
+#card p{
+    background-color:rgb(100, 47, 100);
+    text-align: center; font-size: 1.5rem;
+    font-family: cursive;
+    width: 90%;margin:auto;
+}
+#card a{
+    color:white;
+}
 #produit{
     color:black;
 }
@@ -54,8 +63,8 @@ h4 a{
     background-color: rgb(100, 47, 100);
     color:white;
 }
-#footer span{
-    border-bottom: 2px solid white;
+#footer a{
+    color: white;
 }
 
 @media all and (max-device-width:480px)
