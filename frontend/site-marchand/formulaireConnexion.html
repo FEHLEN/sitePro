@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="panier.css"/>
+        <link rel="stylesheet" href="formulaire.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -31,60 +31,65 @@
             <div class="row" id="bar-tete">
                 <!--responsive petit moyen et large-->
                 <nav class="col nav navbar-expand-lg" id="logo">
-                    <a class="navbar-brand" href="../site-marchand/restaurant.html"><img src="../images/ToqueChef.png" width="100px" height="100px"/></a>
+                    <a class="navbar-brand" href="../page-produits.html"><img src="../images/ToqueChef.png" width="100px" height="100px"/></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                     <img src="../images/iconeMenu.JPG" width="40px" height="40px"/>
                     </button>
                     
                     <div id="navbarContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" id="accueil" href="formulaireConnexion.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="produits" href="formulaireConnexion.html">Nos produits</a>
+                        </li>
                         <li class="nav-item-active">
-                        <a class="nav-link" id="accueil" href="../site-marchand/restaurant.html">Accueil</a>
+                            <a class="nav-link" id="contact" href="formulaireConnexion.html">Connexion</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" id="produits" href="../site-marchand/restaurant.html">Nos produits</a>
+                            <a class="nav-link" id="panier" href="formulaireConnexion.html"><img src="../images/panierBleu.png" width="80px" height="80px"/></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="contact" href="../site-marchand/restaurant.html">Contact</a>
-                        </li>
-                       
                     </ul>
                     </div>
                 </nav>
-            </div>
         </div>
-        <div class="row">
+        <div class="container">
             <div class="col" id="presentation">
-                <div class="jumbotron">
-                <h1>Voici votre panier.</span> </h1>
-                <h2>Cette page est un exemple fictif de commande.</h2>
-            </div>
-    </div>
-    <div class="container">
-        <div class="row"></div>
-            <div class="col" id="recapitulatif">
-                <div class="jumbotron">
-                <h1>Menu le délice des papilles</span> </h1>
-                <h2>Prix : 35 euros</h2>
-                <br>
-                <h2>Montant à payer : 35 euros</h2>
+                <h1>Bienvenue sur notre formulaire de connexion.</span> </h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter votre email">
+                            <small id="emailHelp" class="form-text text-muted">Nous ne communiquons votre email à personne.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <div class="form-submit">
+                            <a class="envoyer" href="./restaurant.html">Submit</a>
+                          </div>
+                    </form>
             </div>
         </div>
-    </div>
-    <p>En cliquant sur "Payer" vous êtes dirigé vers le terminal de paiement par carte bancaire, qui n'est pas activé sur ce site de démonstration.</p>
-    <div id="payer">
-       
-        <a class="bouton" href="../site-marchand/restaurant.html">PAYER</a>
-    </div>
-</body>
-<div class="container" id="footer">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <ul class="list-inline text-center" id="liste">
-          <li class="list-inline-item"><a href="">© 2021 | WEBNELLDEV</a></li>
-          <li class="list-inline-item">&middot;</li>
-        </ul>
-      </div>
-    </div>
-</div>
+        <div class="container" id="footer">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <ul class="list-inline text-center" id="liste">
+                      <li class="list-inline-item"><a href="">© 2021 | WEBNELLDEV</a></li>
+                      <li class="list-inline-item">&middot;</li>
+                      <li class="list-inline-item"><a href="../mentions.html">Mentions légales</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+    </body>
 </html>
+
+                 

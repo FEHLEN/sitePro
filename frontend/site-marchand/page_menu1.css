@@ -70,7 +70,7 @@ h2:hover {
     width: 22%;margin:auto;padding-top: 50px;
 }
 .validation a{
-   font-size: 3rem;font-family: 'Brush Script MT';color:rgb(47, 83, 100);border:1px solid rgb(47, 83, 100);
+   font-size: 3rem;font-family: 'Brush Script MT';color:white;border:1px solid rgb(47, 83, 100);background-color: rgb(47, 83, 100);
 }
 .Information p{
     text-align: center;

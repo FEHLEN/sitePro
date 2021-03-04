@@ -53,6 +53,9 @@ h1, h2{
     width: 100%;
     text-align: center;
 }
+#card a{
+    color:chartreuse;
+}
 #box{
     text-align: center;
     margin-top: 50px;

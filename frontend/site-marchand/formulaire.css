@@ -13,18 +13,19 @@ a.nav-link{
 #contact, #accueil, #produits, #promotions{
     padding-top: 30px;
 }
-#accueil{
+.menu{
+    width: 80%; height:auto;margin:auto;margin-top:2%;padding-bottom: 100px;background-color: rgb(252, 223, 219);margin-bottom: 120px;
+}
+.nav-item-active a{
     color:black;
 }
-h1{
-    color:rgb(47, 83, 100);
+.form-submit{
+    margin-top: 10px;margin-bottom: 10px;
 }
-#payer{
-    width: 15%;margin:auto;background-color: rgb(47, 83, 100);text-align: center;margin-bottom: 20px;
+.form-submit a{
+    border:2px solid rgb(47, 83, 100);background-color: rgb(47, 83, 100);color:white;
 }
-#payer a{
-    color:white;
-}
+
 #footer{
     margin-bottom: 150px;
     background-color:rgb(47, 83, 100) ;

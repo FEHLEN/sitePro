@@ -65,7 +65,10 @@ section h3, section h4{
     width: 20%;margin:auto;text-align: center;font-family: 'Bradley Hand ITC';font-size: 1.5rem;
 }
 .validation{
-    width: 10%;margin:auto;padding-bottom: 50px;
+    width: 12%;margin:auto;padding-bottom: 50px;
+}
+.validation a{
+    font-size: 2rem;font-family: 'Bradley Hand ITC';color:white;border:1px solid rgb(47, 83, 100);background-color: rgb(47, 83, 100);
 }
 .Information p{
     text-align: center;
