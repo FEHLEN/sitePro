@@ -19,6 +19,9 @@ a.nav-link{
 .nav-item-active a{
     color:black;
 }
+#presentation a{
+    background-color: rgb(47, 83, 100);color:white;margin-left: 10px;
+}
 .form-submit{
     margin-top: 10px;margin-bottom: 10px;
 }
