@@ -1,72 +1,34 @@
-
-#bar-tete{
-    background-color:  rgb(100, 47, 100);
-  
+@font-face{font-family: 'courgette';src:url('./frontend/fonts/Courgette-Regular.ttf');/*font pour les titres*/
 }
-
-#logo img{
-    padding-left: 5px;
+@font-face{font-family: 'Eras Bold';src:url('./frontend/fonts/ERASBD.TTF');/*font pour ohmyfood*/
 }
-.row{
-    margin:0px;
-}
-#mail{
-    margin-left: 30px;
-    color:rgb(100, 47, 100);
-}
-
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
-#accueil{
-    color:black;
-}
-button img{
-    margin-left: 10px;
-}
-span{
-    border-bottom: 2px solid rgb(100, 47, 100);
-}
-span{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(60, 18, 24, 1) 0%, rgba(60, 18, 24, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .120s;
-}
-span:hover{
-    background-size: 100% 100%;
-}
-#hero{
-    width: 80%;margin:auto;
-}
-#hero img{
-    background-size: cover;width: 100%;
-}
-h1, h2{
-    text-align: center;
-    margin-bottom: 20px;
-}
+/*Header*/
+body{margin:0px;padding:0px;}
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{color:rgb(100, 47, 100);margin-left: 10px;font-weight: bold;}
+#accueil{color:black;font-size:1.2em}
+#produits{color:rgb(100, 47, 100);}
+.navbar-toggler{margin-left: 80px;}
+/*soulignement nom*/
+span{border-bottom: 2px solid rgb(100, 47, 100);}
+span{text-decoration: none;background:linear-gradient(to top, rgba(60, 18, 24, 1) 0%, rgba(60, 18, 24, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .500s;}
+span:hover{background-size: 100% 100%;}
+/*Image grand format*/
+#hero{width: 80%;margin:auto;}
+#hero img{background-size: cover;width: 100%;}
+/*Card*/
+h1{text-align: center;margin-bottom: 20px;font-family: 'Eras Bold';}
+strong{color:rgb(100, 47, 100);}
 #card p{
-    background-color:rgb(100, 47, 100);
-    color:white;
-    font-family: cursive;
-    width: 100%;
-    text-align: center;
-}
-#card a{
-    color:chartreuse;
-}
+    background-color:rgb(100, 47, 100);color:white;font-family: cursive;width: 100%;text-align: center;}
+/*animation balle*/
 #box{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom:50px;
-    font-weight: bold;
-}
+    margin-top: 50px;margin-bottom:50px;font-weight: bold;}
+#box p{font-family: 'courgette';margin-left: 35px;}
 .motion-object {
-    offset-path: path('M10 50 H 650 V 150 H 10 Z'); /* this is a square path */
-    animation: move 3s linear infinite;
-}
-
+    offset-path: path('M10 50 H 650 V 150 H 10 Z');animation: move 15s linear infinite;}
 @keyframes move {
     0% { 
     offset-distance: 0%;
@@ -75,95 +37,47 @@ h1, h2{
     offset-distance: 100%;
     }
 }
-
 /* deco */
-
-body {
-    background: #333;
-    padding: 2rem;
+.motion-object {width: 40px;height: 40px;background: rgb(100, 47, 100);border-radius: 50%;}
+.one{             /*animation trois points*/
+    opacity: 0;animation: dot 10s infinite; animation-delay: 0.5s;
 }
-
-.motion-object {
-width: 40px;
-height: 40px;
-background: rgb(100, 47, 100);
-border-radius: 50%;
+.two{
+    opacity: 0;animation: dot 10s infinite;animation-delay: 10s;
 }
-
-.card-body{
-    border: 5px solid rgb(100, 47, 100);
-    margin-top: 30px;
+.three{
+    opacity: 0;animation: dot 10s infinite;animation-delay: 20s;margin-left: 3px;
 }
-#haut{
-    border: 5px solid rgb(100, 47, 100);
+@keyframes dot {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
-#liens{
-    margin-top: 20px; padding-top: 10px;
-}
-#liens a{
-    color:rgb(100, 47, 100);
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-#footer{
-    margin-bottom: 150px;
-    background-color: rgb(100, 47, 100);
-    color:white;
-}
-#footer span{
-    border-bottom: 2px solid white;
-}
+#offre{margin-top:10px;}
+.card-body{border: 5px solid rgb(100, 47, 100);margin-top: 30px;}
+.card-title{font-family:'Eras Bold';}
+#haut{border: 5px solid rgb(100, 47, 100);}
+#liens{margin-top: 20px; padding-top: 10px;}
+#liens a{color:rgb(100, 47, 100);font-weight: bold;font-size: 1.2rem;}
+#adresse{padding-left: 3%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
 
 @media all and (max-device-width:480px)
 {
-    #mail{
-        margin:0px;
-    }
-    #mail img{
-        display:none;
-    }
-    #bar-tete{
-        background-color: rgb(100, 47, 100);
-    }
-   
-    a.navbar-brand{
-        margin:0px;
-    }
-    #reseaux img{
-        width: 70%;
-    }
-    a.nav-link{
-        color:white;
-        /*color:rgb(100, 47, 100);*/
-    }
-    button img{
-        margin-left: 10px;
-    }
-    span{
-        border-bottom: 2px solid rgb(100, 47, 100);
-    }
-    #hero{
-        width: 100%;
-    }
-    #hero img{
-        background-size: cover;width: 100%;
-    }
-    #card p{
-        background-color:rgb(100, 47, 100);
-        color:white;
-        font-family: cursive;
-        width: 90%;margin:auto;
-    }
-    #box{
-        margin-top: 50px;
-        font-weight: bold;
-    }
+    #mail{margin:0px;}
+    #mail img{display:none;}
+    #bar-tete{background-color: rgb(100, 47, 100);}
+    a.navbar-brand{margin:0px;}
+    a.nav-link{color:white;}
+    span{border-bottom: 2px solid rgb(100, 47, 100);}
+    #hero{width: 100%;}
+    #hero img{background-size: cover;width: 100%;}
+    #card p{font-family: cursive;width: 90%;margin:auto;}
+    #box{margin-top: 50px;font-weight: bold;}
     .motion-object {
         offset-path: path('M10 50 H 300 V 150 H 10 Z'); /* this is a square path */
-        animation: move 3s linear infinite;
-    }
-  
+        animation: move 15s linear infinite;}
     @keyframes move {
         0% { 
         offset-distance: 0%;
@@ -172,45 +86,9 @@ border-radius: 50%;
         offset-distance: 100%;
         }
     }
-  
-    /* deco */
-    
-    body {
-        background: #333;
-        padding: 2rem;
-    }
-  
-  .motion-object {
-    width: 40px;
-    height: 40px;
-    background: rgb(100, 47, 100);
-    border-radius: 50%;
-  }
-
-    .card-body{
-        border: 5px solid rgb(100, 47, 100);
-        margin-top: 30px;
-    }
-    #haut{
-        margin-top: 80px;
-        border: 5px solid rgb(100, 47, 100);
-    }
-    #liens{
-        margin-top: 20px; padding-top: 10px;
-    }
-    #liens a{
-        color:rgb(100, 47, 100);
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
-
-    #footer{
-        
-        margin-bottom: 150px;
-        background-color: rgb(100, 47, 100);
-        color:white;
-    }
-    #footer span{
-        border-bottom: 2px solid white;
-    }
+    .card-body{border: 5px solid rgb(100, 47, 100);margin-top: 30px;}
+    #haut{margin-top: 80px;border: 5px solid rgb(100, 47, 100);}
+    #liens{margin-top: 20px; padding-top: 10px;}
+    #liens a{color:rgb(100, 47, 100);font-weight: bold;font-size: 1.2rem;}
+    #footer span{border-bottom: 2px solid white;}
 }

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="accueil.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel= "stylesheet" href="./frontend/font-awesome-4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Entreprise WEBNELLDEV, bienvenue sur la page de présentation de notre entreprise de création de site web, responsive et adaptable.</title>
@@ -24,32 +25,32 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <div class="container">
-      <div class="row" id="mail">
-        <div class="col">
-            <a class="navbar-brand" href=""><img src="./frontend/images/iconeFacebookviolet.png" width="48px" height="48px" alt="icone facebook"/></a>
-            <a class="navbar-brand" href=""><img src="./frontend/images/iconeLinkedInViolet.png" width="40px" height="40px" alt="icone linkedIn"/></a>
-            <a class="navbar-brand" href=""><img src="./frontend/images/twitterViolet.png" width="45px" height="45px" alt="icone twitter"/></a>
-            <img src="./frontend/images/icons8-message-100.png" width="30px" height="30px" alt="icone lettre"/>nelly.lab@orange.fr
-        </div>
-      </div>
+      
       <div class="row" id="bar-tete">
           <!--responsive petit moyen et large-->
             <nav class="col nav navbar-expand-lg" id="logo">
               <a class="navbar-brand" href="index.html"><img src="./frontend/images/iconeLogo.JPG" /></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                <img src="./frontend/images/iconeMenu.JPG" width="40px" height="40px"/>
+                <img src="./frontend/images/iconeMenu.svg" width="100px" height="100px"/>
               </button>
-              
               <div id="navbarContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                   <li class="nav-item-active">
                     <a class="nav-link" id="accueil" href="index.html">Accueil</a>
                   </li>
+                  <li class="dropdown nav-item ">
+                    <a id="produits" class="nav-link dropdown-toggle" data-toggle="dropdown">Nos produits</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./frontend/site-vitrine/fleuriste.html">Site fleuriste</a>
+                        <a class="dropdown-item" href="./frontend/site-vitrine/boulanger.html">Site boulangerie</a>
+                        <a class="dropdown-item" href="./frontend/site-marchand/restaurant.html">Site restaurant</a>
+                    </div>
+                  </li>  
                   <li class="nav-item">
-                    <a class="nav-link" id="produits" href="./frontend/page-produits.html">Nos produits</a>
+                    <a class="nav-link" id="services" href="./frontend/page-services.html">Nos services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="services" href="frontend/page-services.html">Nos services</a>
+                    <a class="nav-link" id="services" href="./frontend/contact.html">Nous contacter</a>
                   </li>
                 </ul>
               </div>
@@ -61,10 +62,13 @@
           <div class="col">
             <div class="jumbotron">
               <h1>Bienvenue sur <span>WEBNELLDEV</span> </h1>
-              <h2>Vous souhaitez être visible sur internet.</h2>
+              <h4 class="text-center ">Créatrice de visibilité pour nos commerçants, nos artisans.</h4>
+              <h2 class="text-center">Vous souhaitez être <small class="text-muted">VISIBLE</small> sur internet, nous sommes là pour vous.</h2>
+              
               <div class="col-12 col-lg-12" id="hero">
                 <img src="frontend/images/banner.jpg"/>
             </div>
+              
           </div>
         </div>
     </div>
@@ -73,7 +77,20 @@
           <div class="col">
             <div class="jumbotron">
               <div id="card">
-                <p>Vous voulez être assuré de notre qualité de travail, des exemples de sites sont visibles ...<a href="./frontend/page-produits.html"><span>ICI !</span></a></p>
+                <h3>Vous <strong>pensez</strong> que tous les sites présentent des <strong>visuels identiques.</strong></h3>
+                <h3>Comme vous <strong>artisan créateur</strong>, nous imaginons des <strong>nouveaux visuels</strong>, nous bousculons les habitudes.</p>
+                <br>
+                <p>Vous redoutez le manque de suivi, l'absence d'entretien de votre site après le paiement.<br>
+                Nous vous répondons que nous sommes disponibles, nous ne comptons pas nos heures de travail, parce que nous sommes des passionnés, comme l'artisan qui passe un concourt du meilleur ouvrier de france. Compte t-il ses heures ?<br>
+              Nous sommes patrons, comme vous, nous aimons notre travail.</p>
+              </div>
+              <h3>Vous vous dites : encore des <strong>démarcheurs</strong> qui vont utiliser du <strong>100% WordPress</strong>, faire un site en deux jours.</h3>
+              <h3>Nous sommes de la dernière génération de développeurs, notre avons encore la <strong>motivation de lutter contre l'uniformisation.</strong></h3>
+              <p>Nos sites ne sont pas du 100% WordPress, nous utilisons toutes les inovations, tous les outils disponibles.</p>
+              <h3>La preuve ce site utilise PHP pour le formulaire de contact uniquement, et sans WordPress, il est adaptable aux différents écrans, il permet une bonne visibilité par tous.</h3>
+                <p>Nous pouvons faire des animations, des montages vidéo, du graphisme, créer des images <strong class="one"><i class="fa fa-circle" ></i></strong>
+                  <strong class="two"><i class="fa fa-circle"></i></strong><strong class="three"><i class="fa fa-circle"></i></strong>​</p>
+               
               </div>
             </div>
           </div>
@@ -84,14 +101,27 @@
         <!-- object to move -->
       </div>
       <div class="col-12 col-lg-4" id="box">
-          RESPONSIVES et ADAPTABLES
+          <p>RESPONSIVES et ADAPTABLES</p>
       </div>
-    </div>   
+    </div>  
+    <div class="container">
+      <div class="row">
+        <div class="col" id="offre">
+          <div class="jumbotron">
+            <h2><span>Nos offres de lancement de jeune entreprise :</span></h2><br>
+            <h3>Nous vous proposons un site vitrine pour 1000 euros et en option gratuite une année de gestion de votre site (d'une valeur de 400 euros), gratuite pour vous, et selon vos besoins définis par vos soins.</h3>
+          </div>
+         
+
+        </div>
+      </div>
+    </div> 
     <div class="container" id="produit">
       <div class="row">
         <div class="col-12  col-lg-4">
+          
           <div class="card-body" id="haut">
-            <img class="card-img-top" src="./frontend/images/icons8-appareil-photo-96.png" alt="icone appareil photo"/>
+            <img class="card-img-top" src="./frontend/images/image-appareil-photo.jpg" alt="photo pinterest appareil photo"/>
             <h3 class="card-title">Site vitrine</h3>
              <h4 class="card-text">Une présentation <br>de votre entreprise et <br>de vos produits.</h4>
              <p>Il n'y a pas de compte utilisateur, l'utilisation d'une base de données peut-être utile pour le stockage des fiches produits.</p>
@@ -99,7 +129,7 @@
         </div>
         <div class="col-12  col-lg-4">
           <div class="card-body">
-            <img class="card-img-top" src="./frontend/images/icons8-vendre-96.png" alt="icone service dynamique"/>
+            <img class="card-img-top" src="./frontend/images/bouton-vert.jpg" alt="icone service dynamique"/>
             <h3 class="card-title">Site dynamique</h3>
             <h4 class="card-text">Une possibilité <br>de commander des produits.</h4>
             <p>Il y a un compte utilisateur, l'utilisation d'une base de données pour le stockage des fiches produits, pas de paiement en ligne.</p>
@@ -107,7 +137,7 @@
         </div>
         <div class="col-12 col-lg-4">
           <div class="card-body">
-            <img class="card-img-top" src="./frontend/images/icons8-cliquer-et-recevoir-96.png" alt="icone click and collect"/>
+            <img class="card-img-top" src="./frontend/images/Click-and-collect.JPG" alt="icone click and collect"/>
             <h3 class="card-title">Site marchand</h3>
             <h4 class="card-text">Le click and collect,<br> achat en ligne et <br>retrait en boutique.</h4>
             <p>Il y a un compte utilisateur, l'utilisation d'une base de données, la validation d'un panier et le module bancaire de paiement.</p>
@@ -115,38 +145,44 @@
         </div>
       </div>
     </div>
-    <div class="bg-light">
-        <div class="container" id="liens">
+    
+    <div class="container" id="liens">
           <div class="row">
               <div class="col">
+                <div class="jumbotron">
                   <ul class="list-inline text-center" id="liste">
                     <li class="list-inline-item"><a href="./frontend/mentions.html">Mentions légales</a></li>
                     <li class="list-inline-item">&middot;</li>
                     <li class="list-inline-item"><a href="./frontend/tarifs.html">Tarifs</a></li>
                     <li class="list-inline-item">&middot;</li>
                     <li class="list-inline-item">
-                      <a href="mailto:nelly.lab@orange.fr">Contact</a></li>
+                      <a href="./frontend/contact.html">Contact</a></li>
                   </ul>
+                </div>
               </div>
           </div>
-        </div>
     </div>
-    <div class="container" id="footer">
-        <div class="row">
-          <div class="col-12 col-lg-4" id="adresse">
-            <span>Adresse:</span>
-            <p>Entrée D<br>
-              36 route de Bayonne<br>
-            64140 Billère</p>
-          </div>
-          <div class="col-12 col-lg-4" id="téléphone">
+    
+    
+  </body>
+  <footer>
+      <div class="row" id="footer">
+        <div class="col-12 col-lg-4" id="adresse">
+          <span>Adresse:</span>
+          <p>Entrée D<br>
+            36 route de Bayonne<br>
+          64140 Billère</p>
+        </div>
+        <div class="col-12 col-lg-4">   
             <span>Téléphone:</span>
             <p>06-38-70-09-81</p>
-          </div>
-          <div class="col-12 col-lg-4" id="copyright">
-            <p>© 2021 | WEBNELLDEV</p>
-          </div>
         </div>
-    </div>
-  </body>
+        <div class="col-12 col-lg-4">
+              <p>© 2021 | WEBNELLDEV</p>
+          </div>
+      </div>
+        
+  
+  </footer>
+
 </html>
