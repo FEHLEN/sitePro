@@ -1,35 +1,19 @@
-#bar-tete{
-    background-color: rgb(100, 47, 100);
-}
-#mail{
-    margin-left: 100px;
-    color:rgb(100, 47, 100);
-}
-
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
-
-button img{
-    margin-left: 10px;
-}
-span{
-    border-bottom: 2px solid rgb(100, 47, 100);
-}
-h1{
-    text-align: center;
-}
-#footer{   
-    margin-bottom: 150px;
-    background-color: rgb(100, 47, 100);
-    color:white;
-}
-#footer span{
-    border-bottom: 2px solid white;
-}
-
-
+body{margin:0px;padding:0px;}
+/*Nav Bar*/
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{color:rgb(100, 47, 100);margin-left: 10px;font-weight: bold;}
+#accueil{color:rgb(100, 47, 100);}
+#produits{color:rgb(100, 47, 100);}
+.navbar-toggler{margin-left: 80px;}
+button img{margin-left: 10px;}
+#mentions{margin-top: 20px;}
+span{border-bottom: 2px solid rgb(100, 47, 100);}
+h1{text-align: center;}
+#adresse{padding-left: 3%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
 
 @media all and (max-device-width:480px)
 {
