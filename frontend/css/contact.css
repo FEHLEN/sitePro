@@ -1,0 +1,16 @@
+
+body{margin:0px;padding:0px;}
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+#produits, #accueil, #services{color:rgb(100, 47, 100);}
+#contact{color:black;font-size: 1.2em;}
+a.nav-link{color:white;margin-left: 10px;}
+.formulaire{width: 50%;margin:auto;background-color: rgb(100, 47, 100,0.5);margin-top: 30px;margin-bottom: 30px;}
+.formulaire p{width: 80%;margin:auto;color:white;padding-bottom: 10px;}
+#bouton{background-color: white;color:rgb(100, 47, 100);font-weight: bold;}
+.bouton{text-align: center;}
+#adresse{padding-left: 3%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}

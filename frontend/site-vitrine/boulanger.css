@@ -1,49 +1,29 @@
-#bar-tete{
-    background-color: rgb(100, 51, 47);
-    margin-right: 0px;margin-left: 0px;
-}
-#logo img{
-    margin-left: 5px;
-}
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
-#contact, #accueil, #produits, #promotions{
-    padding-top: 30px;
-}
-#accueil{
-    color:black;
-}
-h1{
-    text-align: center;
-}
-h2{
-    background-color: rgb(100, 51, 47);
-    color:white;
-    text-align: center;
-    padding-bottom: 5px;
-}
-#hero{
-    width: 100%;
-}
-#hero img{
-    background-size: cover;width: 100%; height: 400px;
-}
-#card{
-    background-color: rgb(100, 51, 47);
-    color:white;
-    font-size: 2rem;
-    text-align: center;
-}
-h4{
-    text-align: center;
-}
-#footer{
-    margin-bottom: 150px;
-    background-color: rgb(100, 51, 47) ;
-    color:white;
-}
-#liste a{
-    color:white;
-}
+/*site pro Webnelledev*/
+body{margin:0px;padding:0px;}
+/*Nav bar webnelldev*/
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{margin-left: 10px;font-weight: bold;}
+#contact, #services, #accueil{color:rgb(100, 47, 100);}
+#produits{color:black;font-size: 1.2em;}
+.navbar-toggler{margin-left: 80px;}
+/*footer*/
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
+#adresse{padding-left: 3%;}
+
+/*modèle boulanger*/
+#bar-boulanger{
+    background-image:url("../images/champ-ble.jpg");margin-right: 0px;margin-left: 0px;}
+#logo img{margin-left: 5px;}
+#contact-boulanger, #accueil-boulanger, #produits-boulanger, #promotions-boulanger{color:white;padding-top: 30px;}
+#accueil{color:black;}
+h1{text-align: center;}
+h2{background-color: rgb(197, 192, 142);color:white;text-align: center;padding-bottom: 5px;}
+#hero{width: 100%;}
+#hero img{background-size: cover;width: 100%; height: 400px;}
+#card{background-color: rgb(197, 192, 142);color:white;font-size: 2rem;text-align: center;}
+h4{text-align: center;}
+#footer-boulanger{margin-bottom: 15px;background-color: rgb(197, 192, 142);color:white;}
+#liste a{color:white;}

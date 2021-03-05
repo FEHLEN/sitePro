@@ -1,39 +1,18 @@
+@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
+}
+/*Header*/
+body{margin:0px;padding:0px;}
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{color:rgb(100, 47, 100);margin-left: 10px;font-weight: bold;}
 
-#bar-tete{
-    background-color:  rgb(100, 47, 100);
-  
-}
+#produits, #accueil{color:rgb(100, 47, 100);}
+.navbar-toggler{margin-left: 80px;}
+#services{color:black;font-size: 1.2em;}
+#card p{background-color:rgb(100, 47, 100);color:white;font-family: cursive;width: 100%;text-align: center;}
+.card-title{font-family:'Eras Bold' ;}
+#adresse{padding-left: 3%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
 
-#logo img{
-    padding-left: 5px;
-}
-.row{
-    margin:0px;
-}
-#mail{
-    margin-left: 30px;
-    color:rgb(100, 47, 100);
-}
-
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
-#services{
-    color:black;
-}
-#card p{
-    background-color:rgb(100, 47, 100);
-    color:white;
-    font-family: cursive;
-    width: 100%;
-    text-align: center;
-}
-#footer{
-    margin-bottom: 150px;
-    background-color: rgb(100, 47, 100);
-    color:white;
-}
-#footer a{
-    color:white;
-}

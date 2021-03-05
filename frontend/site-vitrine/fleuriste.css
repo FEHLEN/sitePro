@@ -1,20 +1,31 @@
-#bar-tete{
-    background-color: rgb(47, 100, 65);
-    margin-right: 0px;margin-left: 0px;
+@font-face{font-family: 'courgette';src:url('../fonts/Courgette-Regular.ttf');/*font pour les titres*/
 }
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
-#contact, #accueil, #produits, #promotions{
-    padding-top: 30px;
-}
-#accueil{
-    color:black;
-}
-.video{
-    width: 20%;margin:auto;
-}
+body{margin:0px;padding:0px;}
+/*Nav bar webnelldev*/
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{color:rgb(100, 47, 100);margin-left: 10px;font-weight: bold;}
+#services, #contact, #accueil{color:rgb(100, 47, 100);}
+#produits{color:black;font-size: 1.2em;}
+.navbar-toggler{margin-left: 80px;}
+/*footer*/
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
+#adresse{padding-left: 3%;}
+
+/*Nav bar fleuriste*/
+#bar-fleuriste{
+    background-color: rgba(47, 100, 65,0.5);margin-right: 0px;margin-left: 0px;}
+a.nav-link{color:white;margin-left: 10px;}
+#contact-fleuriste, #produits-fleuriste, #promotions-fleuriste{padding-top: 0px;}
+#accueil-fleuriste{color:black; padding:0px;}
+#presentation{padding-top: 40px;}
+span{color:rgba(47, 100, 65,0.8);}
+strong{font-family: 'courgette';}
+
+
+/*animation carrousel*/
 *, *::before, *::after {
     box-sizing: border-box; /* Too much math below to be concerned with standard CSS Box Model element dimensions calculations. Let's not have to account for padding/margins/borders on anything here. */
   }
@@ -23,14 +34,12 @@ a.nav-link{
     background-attachment: fixed;
     background-size: cover;
   }
-
   .carousel_wrapper {
     position: relative;
     width: 320px;
     margin: 100px auto 0 auto;
     perspective: 1000px;
   }
-  
   .carousel {
     position: absolute;
     width: 100%;
@@ -39,7 +48,6 @@ a.nav-link{
     transform: rotateY(-360deg) translateZ(-412px); /* add reverse transformation from the slides */
     animation: swirl 40s steps(10000, end) infinite; /* run `swirl` animation (defined at end of CSS) infitely, with animation lasting 40 seconds, and 10,000 steps between the FROM and TO values in the animation for a smooth rotation */
   }
-  
   .slide {
     position: absolute;
     top: 10px;
@@ -47,15 +55,12 @@ a.nav-link{
     width: 300px;
     height: 187px;
   }
-  
   .slide img {
     width: 280px;
     height: 175px;
     border: 3px inset rgba(47, 115, 201, 0.75);
     box-shadow: 0 0 15px 3px rgba(110, 72, 221, 0.9);
   }
-  
-  
   /*
   9 Slides total: 360 Degrees (full circle) --> 360/9 = 40 --> our increment for rotation
   
@@ -81,7 +86,6 @@ a.nav-link{
   
   So, `r` is (about) 412px long! This means we need to TRANSLATE the slides in the Z 3-dimensional plane by 412px. This should be done AFTER the rotateY transformation.
   */
-  
   .slide.one {
     transform: rotateY(0deg) translateZ(412px);
   }
@@ -115,7 +119,6 @@ a.nav-link{
   -------------------
   Simply rotates the carousel around the Y axis by using rotateY and starting at initial value, -360º, and going to final value 0º, then resetting.
   */
-  
   @keyframes swirl {   
     from {
       transform: rotateY(-360deg);
@@ -124,12 +127,19 @@ a.nav-link{
       transform: rotateY(0deg);
     }
   } 
+/*partie card de présentation produits*/
 #card{
-    background-color:rgb(47, 100, 65) ;
+    background-color:rgba(47, 100, 65,0.5) ;
     color:white;
     font-size: 2rem;
     text-align: center;
     margin-top: 400px;
+}
+#footer-fleuriste{
+  background-color:rgba(47, 100, 65,0.5) ;margin-bottom: 20px;
+}
+#footer-fleuriste p{
+  padding-left: 20px;
 }
 h1, h2{
     text-align: center;
@@ -137,11 +147,6 @@ h1, h2{
 h4, h5{
     text-align: center;
     font-size: 0.8rem;
-}
-#footer{
-    margin-bottom: 150px;
-    background-color: rgb(47, 100, 65);
-    color:white;
 }
 #liste a{
     color:white;

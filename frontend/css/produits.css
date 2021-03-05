@@ -24,6 +24,9 @@ span{
 h1, h2{
     text-align: center;
 }
+h3{
+    text-decoration-line: underline;
+}
 #presentation p{
     color:rgb(100, 47, 100);
     text-align: center;

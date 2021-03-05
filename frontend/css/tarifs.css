@@ -1,24 +1,15 @@
 
-#bar-tete{
-    background-color:  rgb(100, 47, 100);
-  
-}
+body{margin:0px;padding:0px;}
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+#produits, 
+#accueil, 
+#services,
+#contact{color:rgb(100, 47, 100);font-weight: bold;}
+.navbar-toggler{margin-left: 80px;}
 
-#logo img{
-    padding-left: 5px;
-}
-.row{
-    margin:0px;
-}
-#mail{
-    margin-left: 30px;
-    color:rgb(100, 47, 100);
-}
 
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
 
 #card p{
     background-color:rgb(100, 47, 100);
@@ -33,14 +24,9 @@ a.nav-link{
 #tarifs p{
     margin-left: 20px;
 }
-#footer{
-    margin-bottom: 150px;
-    background-color: rgb(100, 47, 100);
-    color:white;
-}
-#footer a{
-    color:white;
-}
+#adresse{padding-left: 3%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
 .tarif-vitrine, .tarif-dynamique, .tarif-marchand{
     margin-bottom: 20px;
 }
