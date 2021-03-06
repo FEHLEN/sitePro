@@ -3,20 +3,33 @@
 }
 @font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
 }
-
-#bar-tete{
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{color:rgb(100, 47, 100);margin-left: 10px;font-weight: bold;}
+#services, #contact, #accueil{color:rgb(100, 47, 100);}
+#produits{color:black;font-size: 1.2em;}
+.card{color:rgb(100, 47, 100);text-align: center;font-weight: bold;}
+.card p{font-size: 1.2em;}
+strong{color:limegreen;}
+.navbar-toggler{margin-left: 10%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
+#adresse{padding-left: 3%;}
+/*Body*/
+#bar{
     background-color: rgb(47, 83, 100);
-    margin-right: 0px;margin-left: 0px;
+    margin-right: 0px;margin-left: 0px;opacity:81%;
 }
 #logo img{
     margin-left: 5px;
 }
 a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
+    margin-left: 10px;
+    
 }
-#contact, #accueil, #produits, #promotions{
-    padding-top: 30px;
+#accueil-menu, #produits-menu{
+    padding-top: 30px;color:white;
 }
 menu{
     width: 80%;margin:auto;background-color:  rgb(255,245,254);padding-bottom: 300px;margin-bottom: 120px;
@@ -102,10 +115,10 @@ section{
     width:70%;font-size: 1.5rem;text-align: left;font-family: 'Brush Scipt MT';
 }
 .tarif{
-    width: 15%;margin:auto;font-size:1.2rem;
+    width: 15%;margin:auto;font-size:1.2rem;text-align: center;
 }
 .validation{
-    width: 15%;margin:auto;padding-top: 50px;
+    width: 20%;margin:auto;padding-top: 50px;
 }
 .validation a{
     font-size: 3rem;font-family: 'Brush Script MT';color:white;border:1px solid rgb(47, 83, 100);background-color: rgb(47, 83, 100);
@@ -113,11 +126,27 @@ section{
 .Information p{
     text-align: center;
 }
-#footer{
-    margin-bottom: 150px;
+#footer-menu2{
+    margin-bottom: 10px;
     background-color:rgb(47, 83, 100) ;
-    color:white;
+    color:white;opacity:81%;
 }
-#liste a{
-    color:white;
+
+@media all and (max-device-width:480px)
+{
+    .motif1, .motif2, .motif3, .motif4, .motif5, .motif6{
+        display:none;
+    } 
+    .entree h2, .plat h2, .dessert h2{
+        width: 100%;
+    }
+    .titre{
+        padding-left: 5px;
+    }
+    .tarif{
+        width: 50%;margin:auto;
+    }
+    .validation{
+        width: 50%;margin:auto; text-align: center;
+    }
 }

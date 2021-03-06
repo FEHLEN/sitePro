@@ -6,107 +6,53 @@
 }
 @font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
 }
-
-
-#bar-tete{
-    background-color: rgb(47, 83, 100);
-    margin-right: 0px;margin-left: 0px;
-}
-#logo img{
-    margin-left: 5px;
-}
-a.nav-link{
-    color:white;margin-left: 10px;
-    /*color:rgb(100, 47, 100);*/
-}
-#contact, #accueil, #produits, #promotions{
-    padding-top: 30px;
-}
-.menu{
-    width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(249, 249, 249);padding-bottom: 200px;margin-bottom: 120px;
-}
-.presentation{
-    text-align: center;height:300px;width:80%;margin:auto;font-size: 3.5rem; background: linear-gradient( to right,rgb(4, 49, 223), rgb(61, 159, 250), rgb(108, 178, 249));background-clip: text;-webkit-background-clip: text;color:transparent;
-    padding-top: 15%;
-}
-.presentation h1{
-    margin:0px;padding:0px;font-family: 'Alex Brush';
-}
-
-section{
-    margin:0;display: flex;flex-direction: column;width: 90%;padding-bottom: 4%;margin-left: 5%;margin-right: 5%;
-}
-.titre{
-    display:flex;flex-direction: row;width: 100%;padding-bottom: 25px;padding-top: 25px;
-}
-.entree h2{
-    margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.9rem;
-}
-.entree h2{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(4, 49, 223, 1) 0%, rgba(4, 49, 223, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
-}
-.entree h2:hover {
-    background-size: 100% 100%;
-}
-.motif1{
-    width: 315px;height: 6px;border-bottom:10px solid rgb(4, 49, 223);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;margin-top:10px; 
-}
-.motif2{
-    width: 315px;height: 6px;border-bottom:10px solid rgb(4, 49, 223);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;margin-top: 10px;
-}
-.plat h2{
-    text-decoration: none;margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.9rem;
-    background:linear-gradient(to top, rgba(61, 159, 250, 1) 0%, rgba(61, 159, 250, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
-} 
-.plat h2:hover {
-    background-size: 100% 100%;
-}
-.motif3{
-    width: 315px;height: 6px;border-bottom:10px solid rgb(61, 159, 250);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;margin-top: 10px; 
-}
-.motif4{
-    width: 315px;height: 6px;border-bottom:10px solid rgb(61, 159, 250);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;margin-top: 10px;
-}
-.dessert h2{
-    text-decoration: none;margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.9rem;
-    background:linear-gradient(to top, rgba(108, 178, 249, 1) 0%, rgba(108, 178, 249, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
-}
-.dessert h2:hover {
-    background-size: 100% 100%;
-}
-.motif5{
-    width: 315px; height: 6px;border-bottom:10px solid rgb(108, 178, 249);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;margin-top: 10px;
-}
-.motif6{
-    width: 315px; height: 6px;border-bottom:10px solid rgb(18, 178, 249);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;margin-top: 10px; 
-}
-.ligne{
-    display: flex;flex-direction: row;
-}
-.texte{
-    width:1019px;padding-left: 80px;
-}
-.texte p{
-    font-size: 1.5rem;text-align: left;font-family: 'Bradley Hand ITC';font-weight: bold;
-}
-.validation{
-    width: 13%;margin:auto;padding-bottom: 50px;
-}
-.validation a{
-    font-size: 2rem;font-family: 'Bradley Hand ITC';color:white;border:1px solid rgb(47, 83, 100);background-color: rgb(47, 83, 100);
-}
-.Information p{
-    text-align: center;
-}
-.tarif{
-    width: 20%;margin:auto;font-size:1.5rem;font-weight: bold;padding-top: 20px;font-family: 'Bradley Hand ITC';
-}
-#footer{
-    margin-bottom: 150px;
-    background-color:rgb(47, 83, 100) ;
-    color:white;
-}
-#liste a{
-    color:white;
+/*Nav bar webnelldev*/
+#bar-tete{border-bottom:5px solid  rgb(100, 47, 100);}
+#logo img{padding-left: 5px;}
+.row{margin:0px;}
+a.nav-link{color:rgb(100, 47, 100);margin-left: 10px;font-weight: bold;}
+#services, #contact, #accueil{color:rgb(100, 47, 100);}
+#produits{color:black;font-size: 1.2em;}
+.card{color:rgb(100, 47, 100);text-align: center;font-weight: bold;}
+.card p{font-size: 1.2em;}
+strong{color:limegreen;}
+.navbar-toggler{margin-left: 10%;}
+#footer{border-top:5px solid rgb(100, 47, 100);}
+#footer span{border-bottom: 2px solid rgb(100, 47, 100);}
+#adresse{padding-left: 3%;}
+/*body*/
+#bar{
+    background-color: rgb(47, 83, 100);margin-right: 0px;margin-left: 0px;opacity:81%;}
+#logo img{margin-left: 5px;}
+#accueil-menu, #produits-menu{padding-top: 30px;color:white;}
+.menu{width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(249, 249, 249);padding-bottom: 2px;margin-bottom: 20px;}
+.presentation{text-align: center;height:300px;width:80%;margin:auto;font-size: 3.5rem; background: linear-gradient( to right,rgb(4, 49, 223), rgb(61, 159, 250), rgb(108, 178, 249));background-clip: text;-webkit-background-clip: text;color:transparent;padding-top: 15%;}
+.presentation h1{margin:0px;padding:0px;font-family: 'Alex Brush';}
+section{margin:0;display: flex;flex-direction: column;width: 90%;margin-left: 5%;margin-right: 5%;}
+.titre{display:flex;flex-direction: row;width: 100%;padding-bottom: 25px;padding-top: 25px;}
+.entree h2{margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.9rem;}
+.entree h2{text-decoration: none;background:linear-gradient(to top, rgba(4, 49, 223, 1) 0%, rgba(4, 49, 223, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;}
+.entree h2:hover {background-size: 100% 100%;}
+.motif1{width: 315px;height: 6px;border-bottom:10px solid rgb(4, 49, 223);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;margin-top:10px; }
+.motif2{width: 315px;height: 6px;border-bottom:10px solid rgb(4, 49, 223);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;margin-top: 10px;}
+.plat h2{text-decoration: none;margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.9rem;background:linear-gradient(to top, rgba(61, 159, 250, 1) 0%, rgba(61, 159, 250, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;} 
+.plat h2:hover {background-size: 100% 100%;}
+.motif3{width: 315px;height: 6px;border-bottom:10px solid rgb(61, 159, 250);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;margin-top: 10px; }
+.motif4{width: 315px;height: 6px;border-bottom:10px solid rgb(61, 159, 250);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;margin-top: 10px;}
+.dessert h2{text-decoration: none;margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.9rem;background:linear-gradient(to top, rgba(108, 178, 249, 1) 0%, rgba(108, 178, 249, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;}
+.dessert h2:hover {background-size: 100% 100%;}
+.motif5{width: 315px; height: 6px;border-bottom:10px solid rgb(108, 178, 249);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;margin-top: 10px;}
+.motif6{width: 315px; height: 6px;border-bottom:10px solid rgb(18, 178, 249);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;margin-top: 10px; }
+.ligne{display: flex;flex-direction: row;}
+.texte{width:1019px;padding-left: 80px;}
+.texte p{font-size: 1.5rem;text-align: left;font-family: 'Bradley Hand ITC';font-weight: bold;}
+.validation{width: 13%;margin:auto;padding-bottom: 50px;}
+.validation a{font-size: 2rem;font-family: 'Bradley Hand ITC';color:white;border:1px solid rgb(47, 83, 100);background-color: rgb(47, 83, 100);}
+.Information p{text-align: center;}
+.tarif{width: 20%;margin:auto;font-size:1.5rem;font-weight: bold;padding-top: 20px;font-family: 'Bradley Hand ITC';}
+#footer-menu{margin-bottom: 10px;background-color:rgb(47, 83, 100) ;opacity:81%;color:white;}
+@media all and (max-device-width:480px)
+{
+    .validation{width: 50%;margin:auto; text-align: center;}
+    .tarif{width: 50%;margin:auto;}
 }

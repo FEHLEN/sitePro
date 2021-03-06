@@ -29,27 +29,55 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <div class="container">
             <div class="row" id="bar-tete">
+              <!--navigation du site Webnelldev-->
+                <nav class="col nav navbar-expand-lg" id="logo">
+                    <a class="navbar-brand" href="../../index.html"><img src="../images/iconeLogo.JPG" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                        <img src="../images/iconeMenu.JPG" width="100px" height="100px"/>
+                    </button>
+                    <div id="navbarContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                        <li class="nav-item-active">
+                            <a class="nav-link" id="accueil" href="../../index.html">Accueil</a>
+                        </li>
+                        <li class="dropdown nav-item ">
+                            <a id="produits" class="nav-link dropdown-toggle" data-toggle="dropdown">Nos produits</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../site-vitrine/fleuriste.html">Site fleuriste</a>
+                                <a class="dropdown-item" href="../site-vitrine/boulanger.html">Site boulangerie</a>
+                                <a class="dropdown-item" href="../site-marchand/restaurant.html">Site restaurant</a>
+                            </div>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" id="services" href="../page-services.html">Nos services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact" href="../contact.html">Nous contacter</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="card">
+            <p>Vous êtes sur le panier, la réponse au clique sur le bouton commande, vous souhaitez retourner sur la page restaurant <a href="../site-marchand/restaurant.html" ><strong>Cliquez ici !</strong></a></p>
+        </div>
+        <div class="container">
+            <div class="row" id="bar">
                 <!--responsive petit moyen et large-->
                 <nav class="col nav navbar-expand-lg" id="logo">
-                    <a class="navbar-brand" href="../site-marchand/restaurant.html"><img src="../images/ToqueChef.png" width="100px" height="100px"/></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                    <img src="../images/iconeMenu.JPG" width="40px" height="40px"/>
-                    </button>
-                    
-                    <div id="navbarContent" class="collapse navbar-collapse">
+                    <a class="navbar-brand" href="./restaurant.html"><img src="../images/ToqueChef.png" width="100px" height="100px"/></a>
                     <ul class="navbar-nav">
                         <li class="nav-item-active">
-                        <a class="nav-link" id="accueil" href="../site-marchand/restaurant.html">Accueil</a>
+                        <a class="nav-link" id="accueil-panier" href="../site-marchand/restaurant.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" id="produits" href="../site-marchand/restaurant.html">Nos produits</a>
+                            <a class="nav-link" id="produits-panier">Produits</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact" href="../site-marchand/restaurant.html">Contact</a>
+                            <a class="nav-link" id="panier"><img src="../images/panierBleu.png" width="80px" height="80px"/></a>
                         </li>
-                       
                     </ul>
-                    </div>
                 </nav>
             </div>
         </div>
@@ -59,32 +87,51 @@
                 <h1>Voici votre panier.</span> </h1>
                 <h2>Cette page est un exemple fictif de commande.</h2>
             </div>
-    </div>
-    <div class="container">
-        <div class="row"></div>
-            <div class="col" id="recapitulatif">
-                <div class="jumbotron">
-                <h1>Menu le chic à la française</span> </h1>
-                <h2>Prix : 30 euros</h2>
-                <br>
-                <h2>Montant à payer : 30 euros</h2>
+        </div>
+        <div class="container">
+            <div class="row"></div>
+                <div class="col" id="recapitulatif">
+                    <div class="jumbotron">
+                        <h1>Menu le chic à la française</span> </h1>
+                        <h2>Prix : 30 euros</h2>
+                        <br>
+                        <h2>Montant à payer : 30 euros</h2>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <p>En cliquant sur "Payer" vous êtes dirigé vers le terminal de paiement par carte bancaire, qui n'est pas activé sur ce site de démonstration.</p>
-    <div id="payer">
-       
-        <a class="bouton" href="../site-marchand/restaurant.html">PAYER</a>
-    </div>
-</body>
-<div class="container" id="footer">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <ul class="list-inline text-center" id="liste">
-          <li class="list-inline-item"><a href="">© 2021 | WEBNELLDEV</a></li>
-          <li class="list-inline-item">&middot;</li>
-        </ul>
-      </div>
-    </div>
-</div>
+        <div class="avertissement">
+            <p>En cliquant sur "Payer" vous êtes dirigé vers le terminal de paiement par carte bancaire, qui n'est pas activé sur ce site de démonstration.</p>
+        </div>
+        <div id="payer">
+            <a class="bouton" href="../site-marchand/restaurant.html">PAYER</a>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" id="footer-panier">
+                    <p>© 2021 | WEBNELLDEV    Modèle non contractuel</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="row" id="footer">
+            <div class="col-12 col-lg-4" id="adresse">
+                <span>Adresse:</span>
+                <p>Entrée D<br>
+                36 route de Bayonne<br>
+                64140 Billère</p>
+            </div>
+            <div class="col-12 col-lg-4">   
+              <span>Téléphone:</span>
+              <p>06-38-70-09-81</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <p>© 2021 | WEBNELLDEV</p>
+           </div>
+        </div>
+    </footer>
+
 </html>
